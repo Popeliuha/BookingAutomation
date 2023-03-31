@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AAvpfQfxB70CRQADHacJYtABWE9QL7Zeiv0IKWwKN1XD1HQIZH3RIotJH8vBfAVahNRRIbNQzSE13PDKJdpJdA==",
+  "dgSpecHash": "we2tIkoAEEVF7UF2RqmCOq4YlCFFcogcYoPByIOjSwKW4AZ9U6vwKMeRWh8FOuha4Y1nulD5Du5H+1faGqBhBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\BookingCom\\BookingCom.csproj",
+  "projectFilePath": "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\BookingCom\\Framework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Popeliuha\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\Popeliuha\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
@@ -15,6 +15,7 @@
     "C:\\Users\\Popeliuha\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\Popeliuha\\.nuget\\packages\\nunit.consolerunner\\3.16.3\\nunit.consolerunner.3.16.3.nupkg.sha512",
     "C:\\Users\\Popeliuha\\.nuget\\packages\\nunit3testadapter\\4.3.1\\nunit3testadapter.4.3.1.nupkg.sha512",
+    "C:\\Users\\Popeliuha\\.nuget\\packages\\selenium.firefox.webdriver\\0.27.0\\selenium.firefox.webdriver.0.27.0.nupkg.sha512",
     "C:\\Users\\Popeliuha\\.nuget\\packages\\selenium.support\\4.8.1\\selenium.support.4.8.1.nupkg.sha512",
     "C:\\Users\\Popeliuha\\.nuget\\packages\\selenium.webdriver\\4.8.1\\selenium.webdriver.4.8.1.nupkg.sha512",
     "C:\\Users\\Popeliuha\\.nuget\\packages\\selenium.webdriver.chromedriver\\110.0.5481.7700\\selenium.webdriver.chromedriver.110.0.5481.7700.nupkg.sha512",

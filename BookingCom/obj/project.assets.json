@@ -347,6 +347,12 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.props": {}
         }
       },
+      "Selenium.Firefox.WebDriver/0.27.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Firefox.WebDriver.targets": {}
+        }
+      },
       "Selenium.Support/4.8.1": {
         "type": "package",
         "dependencies": {
@@ -970,6 +976,19 @@
         "nunit3testadapter.nuspec"
       ]
     },
+    "Selenium.Firefox.WebDriver/0.27.0": {
+      "sha512": "HwCaTaa+snzkLF7ZVaxKSmdttKm+KXT7HOY8c1q8p9E7x05+WHqw5XaZjUGFytVT1+0FkgUoH/u/I+csPLeJAg==",
+      "type": "package",
+      "path": "selenium.firefox.webdriver/0.27.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.Firefox.WebDriver.targets",
+        "driver/geckodriver.exe",
+        "selenium.firefox.webdriver.0.27.0.nupkg.sha512",
+        "selenium.firefox.webdriver.nuspec"
+      ]
+    },
     "Selenium.Support/4.8.1": {
       "sha512": "S7ZkZvCbg7UW8botSWJUBLBcPqumBH+cUJtwoTNWCw3Bhj/SBrxMG0q+CRBkrF2HW1btJXkOqzsiWAPAV0EVfA==",
       "type": "package",
@@ -1061,6 +1080,7 @@
       "NUnit >= 3.13.3",
       "NUnit.ConsoleRunner >= 3.16.3",
       "NUnit3TestAdapter >= 4.3.1",
+      "Selenium.Firefox.WebDriver >= 0.27.0",
       "Selenium.Support >= 4.8.1",
       "Selenium.WebDriver >= 4.8.1",
       "Selenium.WebDriver.ChromeDriver >= 110.0.5481.7700"
@@ -1073,9 +1093,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\BookingCom\\BookingCom.csproj",
-      "projectName": "BookingCom",
-      "projectPath": "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\BookingCom\\BookingCom.csproj",
+      "projectUniqueName": "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\BookingCom\\Framework.csproj",
+      "projectName": "Framework",
+      "projectPath": "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\BookingCom\\Framework.csproj",
       "packagesPath": "C:\\Users\\Popeliuha\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\BookingCom\\obj\\",
       "projectStyle": "PackageReference",
@@ -1126,6 +1146,10 @@
             "target": "Package",
             "version": "[4.3.1, )"
           },
+          "Selenium.Firefox.WebDriver": {
+            "target": "Package",
+            "version": "[0.27.0, )"
+          },
           "Selenium.Support": {
             "target": "Package",
             "version": "[4.8.1, )"
@@ -1154,7 +1178,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }
