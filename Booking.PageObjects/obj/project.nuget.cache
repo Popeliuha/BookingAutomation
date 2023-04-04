@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MYC8utuPFAHL9e1uyfkORKlQ20fjnxPmdS6BF8KAvFkV+xWyqRy64poycSQD/3rAJOj8RTtOPBf4cJvxce+95A==",
+  "dgSpecHash": "HENBB94lTd8niUSszWVH9IAL/7H9CsNfrUCP3ISXHEBxbQ0SOa8FxJ2HT0MWzz5WtQsDawZNWikMe5ehLP5GtA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\Booking.PageObjects\\Booking.PageObjects.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Popeliuha\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\Popeliuha\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\Popeliuha\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
     "C:\\Users\\Popeliuha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

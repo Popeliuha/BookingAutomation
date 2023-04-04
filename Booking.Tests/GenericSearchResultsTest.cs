@@ -39,7 +39,7 @@ namespace Booking.Tests
             initialPage.SelectMonthAndDay(checkInMonth, checkOutMonth, checkInDay, checkOutDay);
 
             Console.WriteLine("Clicking search button");
-            initialPage.ClickSearch();
+            initialPage.ClickSearch(city);
 
             Console.WriteLine("Getting list of hotels");
             SearchResultsPage searchResultsPage = new SearchResultsPage(driver);

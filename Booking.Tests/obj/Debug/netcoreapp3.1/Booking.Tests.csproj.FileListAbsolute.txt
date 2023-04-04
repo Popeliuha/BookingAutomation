@@ -108,3 +108,4 @@ C:\Users\Popeliuha\source\repos\BookingCom\Booking.Tests\obj\Debug\netcoreapp3.1
 C:\Users\Popeliuha\source\repos\BookingCom\Booking.Tests\obj\Debug\netcoreapp3.1\Booking.Tests.dll
 C:\Users\Popeliuha\source\repos\BookingCom\Booking.Tests\obj\Debug\netcoreapp3.1\Booking.Tests.pdb
 C:\Users\Popeliuha\source\repos\BookingCom\Booking.Tests\obj\Debug\netcoreapp3.1\Booking.Tests.genruntimeconfig.cache
+C:\Users\Popeliuha\source\repos\BookingCom\Booking.Tests\bin\Debug\netcoreapp3.1\SeleniumExtras.WaitHelpers.dll

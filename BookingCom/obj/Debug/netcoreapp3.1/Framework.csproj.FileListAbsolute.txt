@@ -101,3 +101,4 @@ C:\Users\Popeliuha\source\repos\BookingCom\BookingCom\obj\Debug\netcoreapp3.1\Fr
 C:\Users\Popeliuha\source\repos\BookingCom\BookingCom\obj\Debug\netcoreapp3.1\Framework.pdb
 C:\Users\Popeliuha\source\repos\BookingCom\BookingCom\obj\Debug\netcoreapp3.1\Framework.genruntimeconfig.cache
 C:\Users\Popeliuha\source\repos\BookingCom\BookingCom\obj\Debug\netcoreapp3.1\Framework.csproj.AssemblyReference.cache
+C:\Users\Popeliuha\source\repos\BookingCom\BookingCom\bin\Debug\netcoreapp3.1\SeleniumExtras.WaitHelpers.dll

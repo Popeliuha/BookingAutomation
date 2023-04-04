@@ -16,9 +16,12 @@ namespace Booking.PageObjects
         public AdvertisementModal AdvertisementModal => new AdvertisementModal(driver);
         public LanguageWindow LanguageWindow => new LanguageWindow(driver);
 
+        private string btnDateFirstUI = "//div[@data-testid='searchbox-dates-container']//button[1]";
+        private string btnDateSecondUI = "(//span[contains(@class,'sb-date-field__icon')])[1]/*";
+        private string liDestinationXPath = "//ul[contains(@aria-label, 'destination') ]/li[1]";
         private Element btnLangaugeSwitcher => driver.FindElementByXpath("//button[@data-testid = 'header-language-picker-trigger']");
         private Element txtDestination => driver.FindElementByXpath("//input[@name='ss']");
-        private Element liDestination => driver.FindElementByXpath("//ul[contains(@aria-label, 'destination') ]/li[1]");
+        private Element liDestination => driver.FindElementByXpath(liDestinationXPath);
         private Element btnSearch => driver.FindElementByXpath("//span[normalize-space()='Search']");
 
         private Element GetBtnDate()
@@ -27,11 +30,11 @@ namespace Booking.PageObjects
 
             try
             {
-                btnDate = driver.FindElementByXpath("//div[@data-testid='searchbox-dates-container']//button[1]");
+                btnDate = driver.FindElementByXpath(btnDateFirstUI);
             }
             catch (NoSuchElementException)
             {
-                btnDate = driver.FindElementByXpath("(//span[contains(@class,'sb-date-field__icon')])[1]/*");
+                btnDate = driver.FindElementByXpath(btnDateSecondUI);
             }
             return btnDate;
         }
@@ -51,24 +54,32 @@ namespace Booking.PageObjects
         {
             try
             {
-                Helper.Wait(2);
+                driver.WaitUntilElementExists(5, liDestinationXPath);
                 liDestination.Click();
             }
             catch (Exception)
             {
-                Console.WriteLine("Destinations dropdown did not appear");
+                Console.WriteLine("Destinations dropdown did not appear or appeared in applicable UI.");
             }
         }
 
         public void ClickDate()
         {
             GetBtnDate().Click();
-            Helper.Wait(2);
+            try
+            {
+                driver.WaitUntilElementExists(5, btnDateFirstUI);
+            }
+            catch (Exception)
+            {
+                driver.WaitUntilElementExists(5, btnDateSecondUI);
+            }
         }
 
-        public void ClickSearch()
+        public void ClickSearch(string cityName)
         {
             btnSearch.Click();
+            driver.WaitUntilPageTitleContainsText(5, $"Hotels in {cityName}");
         }
 
         #region Month and Day Selection methods
@@ -113,8 +124,6 @@ namespace Booking.PageObjects
 
         public void SelectMonthAndDay(string checkInMonth, string checkOutMonth, string checkInDay, string checkOutDay)
         {
-            Helper.Wait(10);
-
             try
             {
                 DefineFirstUIXpathesAndSelectMonthAndDay(checkInMonth, checkOutMonth, checkInDay, checkOutDay);

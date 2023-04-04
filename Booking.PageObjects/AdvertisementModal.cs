@@ -1,4 +1,6 @@
 ﻿using Framework;
+using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +14,8 @@ namespace Booking.PageObjects
         {
 
         }
-
-        private Element modal => driver.FindElementsByXpath("//div[@aria-modal='true']").Where(x => x.IsDisplayed()).FirstOrDefault();
+        private string modalXPath = "//div[@aria-modal='true']";
+        private Element modal => driver.FindElementsByXpath(modalXPath).Where(x => x.IsDisplayed()).FirstOrDefault();
         private Element btnCloseModal => driver.FindElementByXpath("//div[@aria-modal='true']//button");
 
         private bool IsModalDisplayed()
@@ -23,10 +25,11 @@ namespace Booking.PageObjects
 
         public void CloseModalIfExists()
         {
+            driver.WaitUntilElementExists(5, modalXPath);
             if (IsModalDisplayed())
                 btnCloseModal.Click();
 
-            Helper.Wait(2);
+            driver.WaitUntilElementDisappearsFromDOM(5, modalXPath);
         }
     }
 }
