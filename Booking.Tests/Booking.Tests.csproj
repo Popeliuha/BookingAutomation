@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,8 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\APIHelper\APIHelper.csproj" />
     <ProjectReference Include="..\Booking.PageObjects\Booking.PageObjects.csproj" />
     <ProjectReference Include="..\BookingCom\Framework.csproj" />
+    <ProjectReference Include="..\DatabaseHelper\DatabaseHelper.csproj" />
   </ItemGroup>
 
 </Project>

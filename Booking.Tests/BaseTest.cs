@@ -7,7 +7,7 @@ namespace Booking.Tests
     {
         protected Driver driver;
 
-        [SetUp]
+       // [SetUp]
         public void Init()
         {
             driver = new DriverFactory().GetDriverByName("chrome");
@@ -16,7 +16,7 @@ namespace Booking.Tests
         }
 
 
-        [TearDown]
+        //[TearDown]
         public void TearDown()
         {
             driver.CloseDriver();

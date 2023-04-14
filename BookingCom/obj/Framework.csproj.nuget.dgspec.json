@@ -1,36 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\BookingCom\\Framework.csproj": {}
+    "E:\\Git\\BookingAutomation\\BookingCom\\Framework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\BookingCom\\Framework.csproj": {
+    "E:\\Git\\BookingAutomation\\BookingCom\\Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\BookingCom\\Framework.csproj",
+        "projectUniqueName": "E:\\Git\\BookingAutomation\\BookingCom\\Framework.csproj",
         "projectName": "Framework",
-        "projectPath": "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\BookingCom\\Framework.csproj",
-        "packagesPath": "C:\\Users\\Popeliuha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Popeliuha\\source\\repos\\BookingCom\\BookingCom\\obj\\",
+        "projectPath": "E:\\Git\\BookingAutomation\\BookingCom\\Framework.csproj",
+        "packagesPath": "C:\\Users\\Гуся\\.nuget\\packages\\",
+        "outputPath": "E:\\Git\\BookingAutomation\\BookingCom\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Popeliuha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Гуся\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +37,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "DotNetSeleniumExtras.WaitHelpers": {
               "target": "Package",
@@ -87,7 +83,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -96,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

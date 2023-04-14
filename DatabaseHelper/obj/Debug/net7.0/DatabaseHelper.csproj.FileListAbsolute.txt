@@ -1,0 +1,14 @@
+E:\Git\BookingAutomation\DatabaseHelper\bin\Debug\net7.0\DatabaseHelper.deps.json
+E:\Git\BookingAutomation\DatabaseHelper\bin\Debug\net7.0\DatabaseHelper.runtimeconfig.json
+E:\Git\BookingAutomation\DatabaseHelper\bin\Debug\net7.0\DatabaseHelper.dll
+E:\Git\BookingAutomation\DatabaseHelper\bin\Debug\net7.0\DatabaseHelper.pdb
+E:\Git\BookingAutomation\DatabaseHelper\obj\Debug\net7.0\DatabaseHelper.csproj.AssemblyReference.cache
+E:\Git\BookingAutomation\DatabaseHelper\obj\Debug\net7.0\DatabaseHelper.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git\BookingAutomation\DatabaseHelper\obj\Debug\net7.0\DatabaseHelper.AssemblyInfoInputs.cache
+E:\Git\BookingAutomation\DatabaseHelper\obj\Debug\net7.0\DatabaseHelper.AssemblyInfo.cs
+E:\Git\BookingAutomation\DatabaseHelper\obj\Debug\net7.0\DatabaseHelper.csproj.CoreCompileInputs.cache
+E:\Git\BookingAutomation\DatabaseHelper\obj\Debug\net7.0\DatabaseHelper.dll
+E:\Git\BookingAutomation\DatabaseHelper\obj\Debug\net7.0\refint\DatabaseHelper.dll
+E:\Git\BookingAutomation\DatabaseHelper\obj\Debug\net7.0\DatabaseHelper.pdb
+E:\Git\BookingAutomation\DatabaseHelper\obj\Debug\net7.0\DatabaseHelper.genruntimeconfig.cache
+E:\Git\BookingAutomation\DatabaseHelper\obj\Debug\net7.0\ref\DatabaseHelper.dll
