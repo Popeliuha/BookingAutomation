@@ -88,6 +88,12 @@ namespace Framework
             }
         }
 
+        public void ExecuteJsCommand(string command)
+        {
+            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+            js.ExecuteScript(command);
+        }
+
         public void CloseDriver()
         {
             driver.Close();

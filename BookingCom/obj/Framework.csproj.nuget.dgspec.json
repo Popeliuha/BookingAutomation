@@ -10,11 +10,11 @@
         "projectUniqueName": "E:\\Git\\BookingAutomation\\BookingCom\\Framework.csproj",
         "projectName": "Framework",
         "projectPath": "E:\\Git\\BookingAutomation\\BookingCom\\Framework.csproj",
-        "packagesPath": "C:\\Users\\Гуся\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\popel\\.nuget\\packages\\",
         "outputPath": "E:\\Git\\BookingAutomation\\BookingCom\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Гуся\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\popel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1152,7 +1152,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Гуся\\.nuget\\packages\\": {}
+    "C:\\Users\\popel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1160,11 +1160,11 @@
       "projectUniqueName": "E:\\Git\\BookingAutomation\\Booking.PageObjects\\Booking.PageObjects.csproj",
       "projectName": "Booking.PageObjects",
       "projectPath": "E:\\Git\\BookingAutomation\\Booking.PageObjects\\Booking.PageObjects.csproj",
-      "packagesPath": "C:\\Users\\Гуся\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\popel\\.nuget\\packages\\",
       "outputPath": "E:\\Git\\BookingAutomation\\Booking.PageObjects\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Гуся\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\popel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

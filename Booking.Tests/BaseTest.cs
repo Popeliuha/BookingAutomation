@@ -1,4 +1,5 @@
 ﻿using Framework;
+using NLog;
 using NUnit.Framework;
 
 namespace Booking.Tests
@@ -6,8 +7,9 @@ namespace Booking.Tests
     public class BaseTest
     {
         protected Driver driver;
+        protected static Logger logger = LogManager.GetCurrentClassLogger();
 
-       // [SetUp]
+        [SetUp]
         public void Init()
         {
             driver = new DriverFactory().GetDriverByName("chrome");
@@ -16,10 +18,16 @@ namespace Booking.Tests
         }
 
 
-        //[TearDown]
+        [TearDown]
         public void TearDown()
         {
             driver.CloseDriver();
+        }
+
+        public void WriteLog(string message)
+        {
+            TestContext.Out.WriteLine("\n" + message);
+            logger.Debug(message);
         }
     }
 }
