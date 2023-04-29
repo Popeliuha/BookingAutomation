@@ -1,9 +1,10 @@
-﻿using Booking.PageObjects;
+﻿using Booking.Models;
+using Booking.PageObjects;
+using Framework;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.Threading;
 
 namespace Booking.Tests
 {
@@ -14,14 +15,17 @@ namespace Booking.Tests
         [Test]
         public void VerifyGenericSearchResults()
         {
-            string city = "New York";
+            string pathToJson = Pathes.MODELS_PATH + "\\SearchResultParams.json";
+            SearchResultsParams param = ParametersResolver.Resolve<SearchResultsParams>(pathToJson);
+
+            string city = param.City;
             InitialPage initialPage = new InitialPage(driver);
             WriteLog("Close modal if exists");
             initialPage.AdvertisementModal.CloseModalIfExists();
 
             WriteLog("Change language to English - UK");
             initialPage.ClickLangaugeSwitcher();
-            initialPage.LanguageWindow.SelectLanguage("English (UK)");
+            initialPage.LanguageWindow.SelectLanguage(param.Language);
 
             WriteLog($"Selecting destination - {city}");
             initialPage.FillDestination(city);

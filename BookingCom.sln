@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking.PageObjects", "Book
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseHelper", "DatabaseHelper\DatabaseHelper.csproj", "{7F9BA243-F0F3-40CA-A006-5CF9648F6CCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIHelper", "APIHelper\APIHelper.csproj", "{C0C29E80-8FB9-40C7-88BE-45810B21EC0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIHelper", "APIHelper\APIHelper.csproj", "{C0C29E80-8FB9-40C7-88BE-45810B21EC0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Models", "Booking.Models\Booking.Models.csproj", "{4EC0C6D3-FC3E-4660-B4A4-D7881DFFA20F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C0C29E80-8FB9-40C7-88BE-45810B21EC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0C29E80-8FB9-40C7-88BE-45810B21EC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0C29E80-8FB9-40C7-88BE-45810B21EC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EC0C6D3-FC3E-4660-B4A4-D7881DFFA20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EC0C6D3-FC3E-4660-B4A4-D7881DFFA20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EC0C6D3-FC3E-4660-B4A4-D7881DFFA20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EC0C6D3-FC3E-4660-B4A4-D7881DFFA20F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,12 @@
+E:\Git\BookingAutomation\Booking.Models\bin\Debug\net6.0\Booking.Models.deps.json
+E:\Git\BookingAutomation\Booking.Models\bin\Debug\net6.0\Booking.Models.dll
+E:\Git\BookingAutomation\Booking.Models\bin\Debug\net6.0\Booking.Models.pdb
+E:\Git\BookingAutomation\Booking.Models\obj\Debug\net6.0\Booking.Models.csproj.AssemblyReference.cache
+E:\Git\BookingAutomation\Booking.Models\obj\Debug\net6.0\Booking.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git\BookingAutomation\Booking.Models\obj\Debug\net6.0\Booking.Models.AssemblyInfoInputs.cache
+E:\Git\BookingAutomation\Booking.Models\obj\Debug\net6.0\Booking.Models.AssemblyInfo.cs
+E:\Git\BookingAutomation\Booking.Models\obj\Debug\net6.0\Booking.Models.csproj.CoreCompileInputs.cache
+E:\Git\BookingAutomation\Booking.Models\obj\Debug\net6.0\Booking.Models.dll
+E:\Git\BookingAutomation\Booking.Models\obj\Debug\net6.0\refint\Booking.Models.dll
+E:\Git\BookingAutomation\Booking.Models\obj\Debug\net6.0\Booking.Models.pdb
+E:\Git\BookingAutomation\Booking.Models\obj\Debug\net6.0\ref\Booking.Models.dll

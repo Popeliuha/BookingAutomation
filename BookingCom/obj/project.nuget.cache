@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "npa1GEgAhHMnTUk21qDryi9vEZ0JkP38DGKT73SRzDb7z6ewF4PEQIxFDqUj1jOaI+CQnVIWA516MvKZUzZD+g==",
+  "dgSpecHash": "lZk+edQWpNZlQGdv1biYFM6DVLY5JiUhOcX8CqXkn1herGJNalbHk3LyKG42Q8vJNb+gK9BB1GFovctrNm+YHA==",
   "success": true,
   "projectFilePath": "E:\\Git\\BookingAutomation\\BookingCom\\Framework.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,7 @@
     "C:\\Users\\popel\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.5.0\\microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
     "C:\\Users\\popel\\.nuget\\packages\\microsoft.testplatform.testhost\\17.5.0\\microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
     "C:\\Users\\popel\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\popel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\popel\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\popel\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\popel\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\popel\\.nuget\\packages\\nunit.consolerunner\\3.16.3\\nunit.consolerunner.3.16.3.nupkg.sha512",

@@ -1,10 +1,11 @@
-﻿using OpenQA.Selenium;
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
 
 namespace Framework
 {
@@ -92,6 +93,17 @@ namespace Framework
         {
             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
             js.ExecuteScript(command);
+        }
+
+        public string TakeScreenshot(string pathToSave)
+        {
+            Screenshot screenshot = ((ITakesScreenshot)driver).GetScreenshot();
+            string title = TestContext.CurrentContext.Test.MethodName +
+                DateTime.Now.ToString("dd-MM-yyyy_HH_mm_ss");
+            FileInfo address = new FileInfo($"{pathToSave}\\");
+            string finalScreenshotName = address + title + ".png";
+            screenshot.SaveAsFile(finalScreenshotName);
+            return finalScreenshotName;
         }
 
         public void CloseDriver()

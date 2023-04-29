@@ -2,31 +2,27 @@
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using System;
-using System.Collections.Generic;
-using System.Reflection;
-using System.Text;
 
 namespace Framework
 {
     public class DriverFactory
     {
-        //private readonly IObjectContainer _objectContainer;
 
-        public Driver GetDriverByName(string browserName)
+        public Driver GetDriverByName(BrowserEnum browser)
         {
             IWebDriver driver;
 
-            switch (browserName)
+            switch (browser)
             {
-                case "headless":
+                case BrowserEnum.Headless:
                     ChromeOptions options = new ChromeOptions();
                     options.AddArguments("--headless"); 
                     driver = new ChromeDriver(options);
                     break;
-                case "chrome":
+                case BrowserEnum.Chrome:
                     driver = new ChromeDriver();
                     break;
-                case "firefox":
+                case BrowserEnum.Firefox:
                     string geckodriverPath = "C:/Git/geckodriver.exe";
                     FirefoxDriverService service = FirefoxDriverService.CreateDefaultService(geckodriverPath);
                     driver = new FirefoxDriver(service);
