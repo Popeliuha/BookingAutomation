@@ -381,10 +381,10 @@
           "build/Selenium.Firefox.WebDriver.targets": {}
         }
       },
-      "Selenium.Support/4.8.1": {
+      "Selenium.Support/4.9.0": {
         "type": "package",
         "dependencies": {
-          "Selenium.WebDriver": "4.8.1"
+          "Selenium.WebDriver": "4.9.0"
         },
         "compile": {
           "lib/net6.0/WebDriver.Support.dll": {}
@@ -393,7 +393,7 @@
           "lib/net6.0/WebDriver.Support.dll": {}
         }
       },
-      "Selenium.WebDriver/4.8.1": {
+      "Selenium.WebDriver/4.9.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -405,10 +405,10 @@
           "lib/net6.0/WebDriver.dll": {}
         },
         "build": {
-          "build/Selenium.WebDriver.targets": {}
+          "buildTransitive/Selenium.WebDriver.targets": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/110.0.5481.7700": {
+      "Selenium.WebDriver.ChromeDriver/112.0.5615.4900": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -1039,10 +1039,10 @@
         "selenium.firefox.webdriver.nuspec"
       ]
     },
-    "Selenium.Support/4.8.1": {
-      "sha512": "S7ZkZvCbg7UW8botSWJUBLBcPqumBH+cUJtwoTNWCw3Bhj/SBrxMG0q+CRBkrF2HW1btJXkOqzsiWAPAV0EVfA==",
+    "Selenium.Support/4.9.0": {
+      "sha512": "YzLglT1RymLURjlUQ5FjspDwaDRvPS/iEPPcU0DPDi9vSQUhZLgFEn1z6L2RuFQY+1Uo8LSN54awLK3fsB+UTg==",
       "type": "package",
-      "path": "selenium.support/4.8.1",
+      "path": "selenium.support/4.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1055,18 +1055,19 @@
         "lib/net6.0/WebDriver.Support.dll",
         "lib/netstandard2.0/WebDriver.Support.dll",
         "lib/netstandard2.1/WebDriver.Support.dll",
-        "selenium.support.4.8.1.nupkg.sha512",
+        "selenium.support.4.9.0.nupkg.sha512",
         "selenium.support.nuspec"
       ]
     },
-    "Selenium.WebDriver/4.8.1": {
-      "sha512": "h4H7pEyr41Xf+IgmhNqrbF3I24SV02x2G1INS82pycNltg1q15/qVV/aRKu/MbMFKtqy1mVoNEE/4/p7T/4Ngw==",
+    "Selenium.WebDriver/4.9.0": {
+      "sha512": "7MiV7cpu5LuM7bBhMz/a25Lb78rFyfl8v2G3q56TAtxdDJEj3WXaRMDyytrKq1YVZ7jaN3pygku0n0IsYfe/SQ==",
       "type": "package",
-      "path": "selenium.webdriver/4.8.1",
+      "path": "selenium.webdriver/4.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/Selenium.WebDriver.targets",
+        "buildTransitive/Selenium.WebDriver.targets",
         "images/icon.png",
         "lib/net45/WebDriver.dll",
         "lib/net46/WebDriver.dll",
@@ -1079,14 +1080,14 @@
         "manager/linux/selenium-manager",
         "manager/macos/selenium-manager",
         "manager/windows/selenium-manager.exe",
-        "selenium.webdriver.4.8.1.nupkg.sha512",
+        "selenium.webdriver.4.9.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/110.0.5481.7700": {
-      "sha512": "fRcvSVCO5vfWMyNZhu4jyt4/UBUIRENR261XozDdDJhgPIcHY99BMKViYzlEcinzkdJ6m+571rlcaNNiaZHhlQ==",
+    "Selenium.WebDriver.ChromeDriver/112.0.5615.4900": {
+      "sha512": "PjWk+/RzxDhnxsCKeprnHb4RRB+cE/ekMVrqdcmdPxNoK/rvfBZdxori5Fm+dh9BU080SLeOKrD8Mtah0HcwlQ==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/110.0.5481.7700",
+      "path": "selenium.webdriver.chromedriver/112.0.5615.4900",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1098,7 +1099,7 @@
         "driver/mac64arm/chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.110.0.5481.7700.nupkg.sha512",
+        "selenium.webdriver.chromedriver.112.0.5615.4900.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     },
@@ -1133,13 +1134,13 @@
       "NUnit3TestAdapter >= 4.3.1",
       "Newtonsoft.Json >= 13.0.3",
       "Selenium.Firefox.WebDriver >= 0.27.0",
-      "Selenium.Support >= 4.8.1",
-      "Selenium.WebDriver >= 4.8.1",
-      "Selenium.WebDriver.ChromeDriver >= 110.0.5481.7700"
+      "Selenium.Support >= 4.9.0",
+      "Selenium.WebDriver >= 4.9.0",
+      "Selenium.WebDriver.ChromeDriver >= 112.0.5615.4900"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\popel\\.nuget\\packages\\": {}
+    "C:\\Users\\Гуся\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1147,11 +1148,11 @@
       "projectUniqueName": "E:\\Git\\BookingAutomation\\BookingCom\\Framework.csproj",
       "projectName": "Framework",
       "projectPath": "E:\\Git\\BookingAutomation\\BookingCom\\Framework.csproj",
-      "packagesPath": "C:\\Users\\popel\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Гуся\\.nuget\\packages\\",
       "outputPath": "E:\\Git\\BookingAutomation\\BookingCom\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\popel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Гуся\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1207,15 +1208,15 @@
           },
           "Selenium.Support": {
             "target": "Package",
-            "version": "[4.8.1, )"
+            "version": "[4.9.0, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
-            "version": "[4.8.1, )"
+            "version": "[4.9.0, )"
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[110.0.5481.7700, )"
+            "version": "[112.0.5615.4900, )"
           }
         },
         "imports": [

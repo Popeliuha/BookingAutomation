@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="6" result="Failed" total="6" passed="4" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="2" engine-version="3.16.2.0" clr-version="4.0.30319.42000" start-time="2023-04-29 20:33:15Z" end-time="2023-04-29 20:33:17Z" duration="2.274762">
+  <command-line><![CDATA[E:\Git\BookingAutomation\packages\bin\nunit3-console.exe  E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\Booking.Tests.dll --result:result.xml]]></command-line>
+  <test-suite type="Assembly" id="1-1010" name="Booking.Tests.dll" fullname="E:/Git/BookingAutomation/Booking.Tests/bin/Debug/net7.0/Booking.Tests.dll" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2023-04-29T20:33:16.0782026Z" end-time="2023-04-29T20:33:17.9321204Z" duration="1.853865" total="6" passed="4" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="2">
+    <environment framework-version="3.13.3.0" clr-version="7.0.5" os-version="Microsoft Windows 10.0.19045" platform="Win32NT" cwd="E:\Git\BookingAutomation\Booking.Tests" machine-name="DESKTOP" user="popel" user-domain="DESKTOP" culture="uk-UA" uiculture="uk-UA" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="E:\Git\BookingAutomation\Booking.Tests" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETCoreApp,Version=v7.0" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="netcore-7.0" />
+      <setting name="NumberOfTestWorkers" value="16" />
+    </settings>
+    <properties>
+      <property name="_PID" value="22412" />
+      <property name="_APPDOMAIN" value="nunit-agent" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="1-1011" name="Booking" fullname="Booking" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2023-04-29T20:33:16.0822114Z" end-time="2023-04-29T20:33:17.9321174Z" duration="1.849906" total="6" passed="4" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="2">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1-1012" name="Tests" fullname="Booking.Tests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2023-04-29T20:33:16.0826318Z" end-time="2023-04-29T20:33:17.9321136Z" duration="1.849482" total="6" passed="4" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="1-1003" name="DataBaseTest" fullname="Booking.Tests.DataBaseTest" classname="Booking.Tests.DataBaseTest" runstate="Runnable" testcasecount="2" result="Passed" start-time="2023-04-29T20:33:16.0835824Z" end-time="2023-04-29T20:33:16.1142089Z" duration="0.030627" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="ParallelScope" value="None" />
+          </properties>
+          <test-case id="1-1005" name="OnMoreSampleTest" fullname="Booking.Tests.DataBaseTest.OnMoreSampleTest" methodname="OnMoreSampleTest" classname="Booking.Tests.DataBaseTest" runstate="Runnable" seed="443394174" result="Passed" start-time="2023-04-29T20:33:16.0854483Z" end-time="2023-04-29T20:33:16.1114216Z" duration="0.026033" asserts="0">
+            <reason>
+              <message><![CDATA[Database OnMoreSampleTest passed.]]></message>
+            </reason>
+          </test-case>
+          <test-case id="1-1004" name="SampleTest" fullname="Booking.Tests.DataBaseTest.SampleTest" methodname="SampleTest" classname="Booking.Tests.DataBaseTest" runstate="Runnable" seed="1404178645" result="Passed" start-time="2023-04-29T20:33:16.1128756Z" end-time="2023-04-29T20:33:16.1133492Z" duration="0.000474" asserts="0">
+            <reason>
+              <message><![CDATA[Database SampleTest passed.]]></message>
+            </reason>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1000" name="ApiTest" fullname="Booking.Tests.ApiTest" classname="Booking.Tests.ApiTest" runstate="Runnable" testcasecount="2" result="Passed" start-time="2023-04-29T20:33:16.1191352Z" end-time="2023-04-29T20:33:16.9070969Z" duration="0.787962" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <test-case id="1-1001" name="ApiSampleTest" fullname="Booking.Tests.ApiTest.ApiSampleTest" methodname="ApiSampleTest" classname="Booking.Tests.ApiTest" runstate="Runnable" seed="1345098241" result="Passed" start-time="2023-04-29T20:33:16.1195548Z" end-time="2023-04-29T20:33:16.8987099Z" duration="0.779155" asserts="1" />
+          <test-case id="1-1002" name="OneMoreApiSampleTest" fullname="Booking.Tests.ApiTest.OneMoreApiSampleTest" methodname="OneMoreApiSampleTest" classname="Booking.Tests.ApiTest" runstate="Runnable" seed="315456033" result="Passed" start-time="2023-04-29T20:33:16.1195546Z" end-time="2023-04-29T20:33:16.9067815Z" duration="0.787227" asserts="1" />
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1006" name="GenericSearchResultsTest" fullname="Booking.Tests.GenericSearchResultsTest" classname="Booking.Tests.GenericSearchResultsTest" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2023-04-29T20:33:16.1191358Z" end-time="2023-04-29T20:33:17.9273968Z" duration="1.808261" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="ParallelScope" value="All" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1-1007" name="VerifyGenericSearchResults" fullname="Booking.Tests.GenericSearchResultsTest.VerifyGenericSearchResults" methodname="VerifyGenericSearchResults" classname="Booking.Tests.GenericSearchResultsTest" runstate="Runnable" seed="634672998" result="Failed" label="Error" start-time="2023-04-29T20:33:16.1615575Z" end-time="2023-04-29T20:33:16.1820192Z" duration="0.020462" asserts="0">
+            <failure>
+              <message><![CDATA[OpenQA.Selenium.DriverServiceNotFoundException : The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+              <stack-trace><![CDATA[   at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor()
+   at Framework.DriverFactory.GetDriverByName(BrowserEnum browser) in E:\Git\BookingAutomation\BookingCom\DriverFactory.cs:line 23
+   at Booking.Tests.BaseTest.Init() in E:\Git\BookingAutomation\Booking.Tests\BaseTest.cs:line 42
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+--TearDown
+   at Booking.Tests.BaseTest.TearDown() in E:\Git\BookingAutomation\Booking.Tests\BaseTest.cs:line 66
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1008" name="JavaScriptExecutorTest" fullname="Booking.Tests.JavaScriptExecutorTest" classname="Booking.Tests.JavaScriptExecutorTest" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2023-04-29T20:33:17.9274772Z" end-time="2023-04-29T20:33:17.9320629Z" duration="0.004586" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1-1009" name="JsTest" fullname="Booking.Tests.JavaScriptExecutorTest.JsTest" methodname="JsTest" classname="Booking.Tests.JavaScriptExecutorTest" runstate="Runnable" seed="2133800215" result="Failed" label="Error" start-time="2023-04-29T20:33:17.9288354Z" end-time="2023-04-29T20:33:17.9307521Z" duration="0.001917" asserts="0">
+            <failure>
+              <message><![CDATA[OpenQA.Selenium.DriverServiceNotFoundException : The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+              <stack-trace><![CDATA[   at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor()
+   at Framework.DriverFactory.GetDriverByName(BrowserEnum browser) in E:\Git\BookingAutomation\BookingCom\DriverFactory.cs:line 23
+   at Booking.Tests.BaseTest.Init() in E:\Git\BookingAutomation\Booking.Tests\BaseTest.cs:line 42
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+--TearDown
+   at Booking.Tests.BaseTest.TearDown() in E:\Git\BookingAutomation\Booking.Tests\BaseTest.cs:line 66
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

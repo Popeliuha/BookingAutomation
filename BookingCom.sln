@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseHelper", "DatabaseH
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIHelper", "APIHelper\APIHelper.csproj", "{C0C29E80-8FB9-40C7-88BE-45810B21EC0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Models", "Booking.Models\Booking.Models.csproj", "{4EC0C6D3-FC3E-4660-B4A4-D7881DFFA20F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking.Models", "Booking.Models\Booking.Models.csproj", "{4EC0C6D3-FC3E-4660-B4A4-D7881DFFA20F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{695CEAB7-7160-4A25-8823-404C0AEFCC15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

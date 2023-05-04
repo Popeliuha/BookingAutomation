@@ -1,8 +1,0 @@
-*.lock
-*.vsidx
-*.dll
-*.testlog
-*.pdb
-*.cache
-bin/
-debug/

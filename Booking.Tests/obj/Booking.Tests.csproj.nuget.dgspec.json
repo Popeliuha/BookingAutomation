@@ -10,11 +10,11 @@
         "projectUniqueName": "E:\\Git\\BookingAutomation\\APIHelper\\APIHelper.csproj",
         "projectName": "APIHelper",
         "projectPath": "E:\\Git\\BookingAutomation\\APIHelper\\APIHelper.csproj",
-        "packagesPath": "C:\\Users\\popel\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Гуся\\.nuget\\packages\\",
         "outputPath": "E:\\Git\\BookingAutomation\\APIHelper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\popel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Гуся\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,11 +71,11 @@
         "projectUniqueName": "E:\\Git\\BookingAutomation\\Booking.Models\\Booking.Models.csproj",
         "projectName": "Booking.Models",
         "projectPath": "E:\\Git\\BookingAutomation\\Booking.Models\\Booking.Models.csproj",
-        "packagesPath": "C:\\Users\\popel\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Гуся\\.nuget\\packages\\",
         "outputPath": "E:\\Git\\BookingAutomation\\Booking.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\popel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Гуся\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -126,11 +126,11 @@
         "projectUniqueName": "E:\\Git\\BookingAutomation\\Booking.PageObjects\\Booking.PageObjects.csproj",
         "projectName": "Booking.PageObjects",
         "projectPath": "E:\\Git\\BookingAutomation\\Booking.PageObjects\\Booking.PageObjects.csproj",
-        "packagesPath": "C:\\Users\\popel\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Гуся\\.nuget\\packages\\",
         "outputPath": "E:\\Git\\BookingAutomation\\Booking.PageObjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\popel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Гуся\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -191,11 +191,11 @@
         "projectUniqueName": "E:\\Git\\BookingAutomation\\Booking.Tests\\Booking.Tests.csproj",
         "projectName": "Booking.Tests",
         "projectPath": "E:\\Git\\BookingAutomation\\Booking.Tests\\Booking.Tests.csproj",
-        "packagesPath": "C:\\Users\\popel\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Гуся\\.nuget\\packages\\",
         "outputPath": "E:\\Git\\BookingAutomation\\Booking.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\popel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Гуся\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -292,11 +292,11 @@
         "projectUniqueName": "E:\\Git\\BookingAutomation\\BookingCom\\Framework.csproj",
         "projectName": "Framework",
         "projectPath": "E:\\Git\\BookingAutomation\\BookingCom\\Framework.csproj",
-        "packagesPath": "C:\\Users\\popel\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Гуся\\.nuget\\packages\\",
         "outputPath": "E:\\Git\\BookingAutomation\\BookingCom\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\popel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Гуся\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -352,15 +352,15 @@
             },
             "Selenium.Support": {
               "target": "Package",
-              "version": "[4.8.1, )"
+              "version": "[4.9.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[4.8.1, )"
+              "version": "[4.9.0, )"
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[110.0.5481.7700, )"
+              "version": "[112.0.5615.4900, )"
             }
           },
           "imports": [
@@ -389,11 +389,11 @@
         "projectUniqueName": "E:\\Git\\BookingAutomation\\DatabaseHelper\\DatabaseHelper.csproj",
         "projectName": "DatabaseHelper",
         "projectPath": "E:\\Git\\BookingAutomation\\DatabaseHelper\\DatabaseHelper.csproj",
-        "packagesPath": "C:\\Users\\popel\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Гуся\\.nuget\\packages\\",
         "outputPath": "E:\\Git\\BookingAutomation\\DatabaseHelper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\popel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Гуся\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

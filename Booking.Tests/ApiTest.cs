@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace Booking.Tests
 {
-    [Parallelizable(ParallelScope.All)]
+    //[Parallelizable(ParallelScope.All)]
     [TestFixture]
     public class ApiTest : BaseTest
     {

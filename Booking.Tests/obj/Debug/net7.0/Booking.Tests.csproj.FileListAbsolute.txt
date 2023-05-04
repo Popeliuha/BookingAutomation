@@ -1,9 +1,6 @@
 E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\testhost.dll
 E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\Framework.deps.json
 E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\Framework.runtimeconfig.json
-E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\selenium-manager\linux\selenium-manager
-E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\selenium-manager\macos\selenium-manager
-E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\selenium-manager\windows\selenium-manager.exe
 E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\testhost.exe
 E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\NUnit3.TestAdapter.dll
 E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\NUnit3.TestAdapter.pdb
@@ -11,6 +8,9 @@ E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\nunit.engine.dll
 E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\nunit.engine.api.dll
 E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\nunit.engine.core.dll
 E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\testcentric.engine.metadata.dll
+E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\selenium-manager\linux\selenium-manager
+E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\selenium-manager\macos\selenium-manager
+E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\selenium-manager\windows\selenium-manager.exe
 E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\NLog.config
 E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\Booking.Tests.deps.json
 E:\Git\BookingAutomation\Booking.Tests\bin\Debug\net7.0\Booking.Tests.runtimeconfig.json

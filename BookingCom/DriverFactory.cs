@@ -20,7 +20,7 @@ namespace Framework
                     driver = new ChromeDriver(options);
                     break;
                 case BrowserEnum.Chrome:
-                    driver = new ChromeDriver();
+                    driver = new ChromeDriver("E:\\Git\\BookingAutomation\\BookingCom\\bin\\Debug\\net7.0");
                     break;
                 case BrowserEnum.Firefox:
                     string geckodriverPath = "C:/Git/geckodriver.exe";
